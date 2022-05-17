@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <section class="banner"><h1>Weather Dashboard</h1></section>
+    <section class="search">
+        <h2>Search for a city:</h2>
+        <form id="search-form">
+        <input type="text" placeholder="City name" id="search-input">
+        <button id="search-button" type="submit" class="btn">Search</button></form>
+        <br><hr><br>
+    </section>
+    <section class="current-weather">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="wind-speed"></p>
+            <p id="humidity"></p>
+            <p id="uv-index"></p>
+    </section>
+    <section class="future-weather">
+        <div class="forecast" id="day1"></div>
+        <div class="forecast" id="day2"></div>
+        <div class="forecast" id="day3"></div>
+        <div class="forecast" id="day4"></div>
+        <div class="forecast" id="day5"></div>
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

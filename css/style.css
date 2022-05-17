@@ -1,0 +1,90 @@
+:root {
+    --color1: #E7F2F8;
+    --color2: #74BDCB;
+    --color3: #FFA384;
+    --color4: #EFE7BC;
+}
+
+.banner {
+    text-align: center;
+    width: 100%;
+    background-color: var(--color4);
+    height: 100px;
+}
+
+.banner h1 {
+    padding-top: 30px;
+    background-color: var(--color4);
+    font-size: 2em;
+}
+
+.search {
+    float: left;
+    width: 30%;
+    height: 700px;
+    margin-top: 75px;
+    background-color: var(--color1);
+    border: 2px solid black;
+}
+
+.current-weather {
+    float: right;
+    width: 65%;
+    height: 250px;
+    border: 2px solid black;
+    background-color: var(--color1);
+    margin-top: 75px;
+}
+
+.future-weather {
+    float: right;
+    width: 65%;
+    margin-top: 50px;
+    height: 396px;
+}
+
+.forecast {
+    width: 15%;
+    margin: 20px;
+    border: 2px solid black;
+    height: 300px;
+    display: inline-block;
+    background-color: var(--color1);
+}
+
+#day1 {
+    margin-left: 50px;
+}
+
+.search-field {
+    background-color: var(--color1);
+    color: var(--color1);
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.search form  {
+    font-size: 1.3em;
+}
+
+.btn {
+    margin-left: 25%;
+    height: 25px;
+    width: 15%;
+}
+
+.search label {
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 10%;
+}
+
+#search-input {
+    text-align: center;
+    margin-left: 25%;
+    height: 30px;
+    width: 50%;
+}
